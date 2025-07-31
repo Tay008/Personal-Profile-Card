@@ -1,14 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Personal Profile Card</title>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal bio page</title>
+    <style>
+      body {
+        background-color: black;
+      }
+      .container {
+        height: 90vh;
+        width: 30vw;
+        /* background-color:
+        background-color: blue; white; */
+        margin: 0 auto;
+        border-radius: 10%;
+        box-shadow: 0 0 20px #00f, 0 0 40px #00f, 0 0 60px #00f;
+      }
+      .first-half {
+        height: 50%;
+        width: 100%;
+        background-color: blue;
+        background-image: url(Tradition\ and\ Tranquility\ in\ Watercolor.png);
+        background-repeat: no-repeat;
+        background-size: 70vh 30vw;
+        color: white;
+      }
+      h1 ,h3 {
+        padding: 0;
+        margin: 0;
+        text-align: center;
+      }
+      img {
+        border-radius: 50%;
+        height: 6em;
+        width: 6em;
+      }
+      .second-half {
+        height: 50%;
+        width: 100%;
+        background-color: green;
+      }
+    </style>
+  </head>
+  <body>
     <div class="container">
-        <div class="img-div"></div>
-        <div class="bio-div"></div>
+      <div class="first-half">
+        <h1>Tayyab Saghir</h1>
+        <h3>Web Developer</h3>
+        <img src="510442572_17947230642004156_6433301666784651450_n.jpg" alt="picture of me">
+      </div>
+      <div class="second-half"></div>
     </div>
-</body>
+  </body>
 </html>
